@@ -36,6 +36,6 @@ public class GoogleTest extends BaseTest {
 
         googlePage.search(searchText);
 
-        System.out.println("Search completed for: " + searchText);
+        System.out.println("Search completed for google: " + searchText);
     }
 }
