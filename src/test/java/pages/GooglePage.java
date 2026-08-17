@@ -26,6 +26,9 @@ public class GooglePage {
     }
 
     // Search on Google
+
+    	
+ 
     public void search(String text) {
 
         WebElement searchElement =
@@ -33,6 +36,7 @@ public class GooglePage {
 
         searchElement.sendKeys(text);
 
-        searchElement.submit();
+        searchElement.submit();   
+        
     }
 }
